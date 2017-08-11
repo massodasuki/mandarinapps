@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4765ff"
+    tools:context="layout.challenge2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/nihao"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:paddingTop="150dp"
+        app:srcCompat="@drawable/nihao" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="353dp"
+        android:layout_height="match_parent"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="95dp"
+        android:paddingTop="250dp"
+        android:text="Listen and Speak"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/soundspeech"
+        android:layout_width="150dp"
+        android:layout_height="500dp"
+        android:paddingLeft="100dp"
+        android:paddingTop="400dp"
+        app:srcCompat="@drawable/sound" />
+
+    <ImageView
+        android:id="@+id/microphone"
+        android:layout_width="352dp"
+        android:layout_height="480dp"
+        android:paddingLeft="100dp"
+        android:paddingTop="430dp"
+        app:srcCompat="@drawable/microphone" />
+
+</FrameLayout>

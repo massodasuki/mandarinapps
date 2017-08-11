@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4765ff"
+    tools:context="layout.challenge1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:paddingTop="150dp"
+        app:srcCompat="@drawable/hello" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="353dp"
+        android:layout_height="match_parent"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="95dp"
+        android:paddingTop="250dp"
+        android:text="Study and Swipe"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+</FrameLayout>

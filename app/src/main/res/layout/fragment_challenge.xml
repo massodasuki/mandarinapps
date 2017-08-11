@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#4765ff"
+    tools:context="com.unifreelancer.masso.learnmandarin.Challenge$PlaceholderFragment">
+
+    <ImageView
+        android:id="@+id/bigcup"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/bigcup"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp" />
+
+    <ImageView
+        android:id="@+id/greetings"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="119dp"
+        app:srcCompat="@drawable/challengeone" />
+
+    <ImageView
+        android:id="@+id/bottomwhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/greetings"
+        android:layout_marginTop="276dp"
+        app:srcCompat="@drawable/bottomwhite" />
+
+    <ImageView
+        android:id="@+id/play"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/play" />
+
+    <ImageView
+        android:id="@+id/search"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/bottomwhite"
+        android:layout_marginStart="9dp"
+        app:srcCompat="@drawable/search" />
+
+    <ImageView
+        android:id="@+id/smallcup"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:srcCompat="@drawable/smallcup"
+        android:layout_alignTop="@+id/bottomwhite"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

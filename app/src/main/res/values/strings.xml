@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Mandarin Learning Apps</string>
+    <string name="title_activity_video">Video</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="reward"> Reward </string>
+    <string name="setting"> Setting</string>
+    <string name="notification">Notification</string>
+    <string name="rate">Rate Our App</string>
+    <string name="support"> Support </string>
+    <string name="about"> About </string>
+    <string name="signOut"> Sign Out </string>
+    <string name="title_activity_challenge">Challenge</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
